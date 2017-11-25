@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tetute Input Method</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    
+  </head>
+
+  <body>
+    <div id="divMenuButtons">
+      <table>
+	<tr>
+	  <td>
+	    <form style="margin: 0;">
+	      <label class="menu">
+		<span id="menuOpenDictionary">OpenDictionary</span>
+		<input id="fileOpenDictionary" type="file" style="display:none">
+	      </label>
+	    </form>
+	  </td>
+	  <td>
+	    <input id="inputFontSize" type="number" value="20" min="0" max="200" onchange="changeFontSize()">
+	  </td>
+	  <td>
+	    <input id="inputFontName">
+	    <button id="buttonFontName" class="menu" onclick="changeFontFamily()">ChangeFont</button>
+	  </td>
+	  <td>
+	    <button class="menu" onclick="drawTetute()" accesskey="R">ReloadTetute (R)</button>
+	  </td>
+	  <td>
+	    <div class="menu">
+	      <label>
+		<input id="checkboxVisibility" type="checkbox" style="display:none" onclick="drawTetute()">
+		<span>ChangeVisibility</span>
+	      </label>
+	    </div>
+	  </td>
+	  <td>
+	    <div class="menu">
+	    <a download="image.svg" href="#" id="download" onclick="downloadSVG()">Download svg</a>
+	    </div>
+	  </td>
+	</tr>
+      </table>
+    </div>
+
+    <div id="divBackground">
+    </div>
+
+    <div id="divTextarea">
+      <textarea id="textareaInput"></textarea>
+    </div>
+
+
+    <div id="divInputCompletion">
+      <input id="input"><br>
+      <div id="divCompletionList">
+      </div>
+    </div>
+
+    <div id="divTetute">
+    </div>
+
+
+  </body>
+  
+
+
+</html>

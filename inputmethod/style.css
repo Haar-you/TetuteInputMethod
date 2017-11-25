@@ -1,0 +1,116 @@
+#textareaInput{
+    position: absolute;
+    width: 100%;
+    height: 95%;
+    border: none;
+    resize: none;
+
+    color: #ffffff;
+    z-index: 2;
+    background: transparent;
+}
+
+#divBackground{
+    visibility: hidden;
+    overflow: scroll;
+
+    position: absolute;
+    overflow: scroll;
+    white-space: pre;
+}
+
+#divTextarea{
+    width: 100%;
+    height: 95%;
+    background-color: #222;
+}
+
+#input{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 0 0 0 0;
+
+    text-decoration: underline;
+    width: auto;
+}
+
+
+#divInputCompletion{
+    position: absolute;
+    visibility: hidden;
+    z-index: 3;
+}
+
+#divCompletionList{
+    width: 200px;
+}
+
+#divCompletionList .button{
+    display: inline-block;
+    width: 100%;
+    white-space: pre;
+    text-align: left;
+
+    background-color: white;
+    border: none;
+}
+
+#divCompletionList .button:focus{
+    color: blue;
+}
+
+#divMenuButtons{
+    
+}
+
+#divMenuButtons .menu{
+    box-sizing: border-box;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: small;
+    height: 30px;
+
+    padding: 5px 5px 5px 5px;
+    background-color: #505050;
+    color: #ffffff;
+}
+
+#divMenuButtons .menu:active{
+    background-color: #888;
+}
+
+#divMenuButtons .menu input:checked + span{
+    color: #00ff00;
+}
+
+body{
+    background-color: #333;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#inputFontSize{
+    background-color: #505050;
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+#inputFontName{
+    background-color: #505050;
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+#divTetute{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    z-index: 1;
+}
+
+#download{
+    color: white;
+}
