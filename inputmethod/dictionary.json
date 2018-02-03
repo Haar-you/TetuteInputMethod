@@ -33,10 +33,6 @@
   },
   {
     "in": ".",
-    "out": "{U+E162}"
-  },
-  {
-    "in": ".",
     "out": "{U+E163}"
   },
   {
@@ -204,20 +200,48 @@
     "out": "{U+E091}"
   },
   {
+    "in": "Sa",
+    "out": "{U+E0C0}"
+  },
+  {
     "in": "Sh",
     "out": "{U+E0E0} {U+E12A}"
   },
   {
-    "in": "Sha",
-    "out": "{U+E0C0}"
+    "in": "Sh",
+    "out": "{U+E0E0} {U+E12B}"
   },
   {
     "in": "She",
     "out": "{U+E0E0} {U+E12A}"
   },
   {
-    "in": "Si",
+    "in": "She",
+    "out": "{U+E0E0} {U+E12B}"
+  },
+  {
+    "in": "Shi",
     "out": "{U+E0E0} {U+E12A} {U+E141}"
+  },
+  {
+    "in": "Shi",
+    "out": "{U+E0E0} {U+E12B} {U+E141}"
+  },
+  {
+    "in": "So",
+    "out": "{U+E0E2} {U+E12A}"
+  },
+  {
+    "in": "So",
+    "out": "{U+E0E2} {U+E12B}"
+  },
+  {
+    "in": "So",
+    "out": "{U+E0E3} {U+E12A}"
+  },
+  {
+    "in": "So",
+    "out": "{U+E0E3} {U+E12B}"
   },
   {
     "in": "a",
@@ -277,31 +301,35 @@
   },
   {
     "in": "ch",
-    "out": "{U+E0BA} {U+E120}"
+    "out": "{U+E0BA} {U+E12A}"
   },
   {
     "in": "cha",
-    "out": "{U+E0B0} {U+E120}"
+    "out": "{U+E0B0} {U+E12A}"
   },
   {
     "in": "cha",
-    "out": "{U+E0B1} {U+E120}"
+    "out": "{U+E0B1} {U+E12A}"
   },
   {
     "in": "cha",
-    "out": "{U+E0B5} {U+E120}"
+    "out": "{U+E0B5} {U+E12A}"
   },
   {
     "in": "che",
-    "out": "{U+E0B2} {U+E120}"
+    "out": "{U+E0B2} {U+E12A}"
   },
   {
     "in": "che",
-    "out": "{U+E0B3} {U+E120}"
+    "out": "{U+E0B3} {U+E12A}"
+  },
+  {
+    "in": "chi",
+    "out": "{U+E0B2} {U+E12A} {U+E141}"
   },
   {
     "in": "cho",
-    "out": "{U+E0B4} {U+E120}"
+    "out": "{U+E0B4} {U+E12A}"
   },
   {
     "in": "ci",
@@ -668,6 +696,10 @@
     "out": "{U+E022}"
   },
   {
+    "in": "pe",
+    "out": "{U+E023}"
+  },
+  {
     "in": "po",
     "out": "{U+E021}"
   },
@@ -697,11 +729,11 @@
   },
   {
     "in": "s",
-    "out": "{U+E08A}"
+    "out": "{U+E072}"
   },
   {
     "in": "s",
-    "out": "{U+E08B}"
+    "out": "{U+E08A}"
   },
   {
     "in": "sa",
@@ -778,6 +810,10 @@
   {
     "in": "we",
     "out": "{U+E0F3}"
+  },
+  {
+    "in": "we",
+    "out": "{U+E0F4}"
   },
   {
     "in": "wo",
