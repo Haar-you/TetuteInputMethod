@@ -3,23 +3,40 @@ var input;
 var textarea;
 var divCompletionList;
 var divInputCompletion;
-var divBackgroun;
+var divBackground;
 var textareaStyle;
 
 
 function getDictionary(text){
     Array.prototype.forEach.call(JSON.parse(text), function(val, index, arr){
+	dictionary.push({
+	    "in": val.in,
+	    "out": val.out.replace(/\{U\+([a-fA-F0-9]{4}\})/g,function(){
+		return String.fromCharCode(parseInt(arguments[1], 16));
+	    }),
+	    "prev": val.prev
+	});
+    });
+}
+
+function getDictionary2(url){
+    $.getJSON(url, function(dat){
+	$.each(dat, function(i, val){
 	    dictionary.push({
 		"in": val.in,
 		"out": val.out.replace(/\{U\+([a-fA-F0-9]{4}\})/g,function(){
 		    return String.fromCharCode(parseInt(arguments[1], 16));
 		}),
 		"prev": val.prev
-	    });
+	    }); 
 	});
+    });
 }
 
+
 window.addEventListener("load", function(){
+
+    getDictionary2("./dictionary.json");
     
     
     input = document.getElementById("input");
@@ -29,7 +46,7 @@ window.addEventListener("load", function(){
     divBackground = document.getElementById("divBackground");
     textareaStyle = getComputedStyle(textarea, "");
 
-    changeFontFamily();
+//    changeFontFamily();
     changeFontSize();
     drawTetute();
     
@@ -47,8 +64,9 @@ window.addEventListener("load", function(){
 	textarea.selectionEnd = caret + vallen;
     };
 
-    var fileOpenDictionary = document.getElementById("fileOpenDictionary");
+    //var fileOpenDictionary = document.getElementById("fileOpenDictionary");
 
+    /*
     fileOpenDictionary.addEventListener("change", function(evt){
 	if(!(fileOpenDictionary.value)) return;
 	var file = evt.target.files;
@@ -58,8 +76,8 @@ window.addEventListener("load", function(){
 	reader.readAsText(file[0]);
 	reader.onload = function(){
 	    getDictionary(reader.result);
-	}
-    });
+	};
+    });*/
     
     input.addEventListener("keyup", function(evt){
 
@@ -268,8 +286,8 @@ function search(str){
 }
 
 function changeFontFamily(){
-    textarea.style["font-family"] = document.getElementById("inputFontName").value;
-    divCompletionList.style["font-family"] = document.getElementById("inputFontName").value;
+    //textarea.style["font-family"] = document.getElementById("inputFontName").value;
+    //divCompletionList.style["font-family"] = document.getElementById("inputFontName").value;
 }
 
 function changeFontSize(){
@@ -299,7 +317,7 @@ function drawTetute(){
     g.setAttribute("font-family", "Tetute");
     g.setAttribute("font-size", 30);
     g.setAttributeNS("http://www.w3.org/XML/1998/namespace", "xml:space", "preserve");
-    g.setAttribute("transform", "rotate(45, " + width/2 + ", " + height/2 + ")");
+    g.setAttribute("transform", `rotate(45,${width/2},${height/2})`);
     g.setAttribute("fill", "rgb(0,140,0)");
 
     var size = 30;
@@ -314,9 +332,9 @@ function drawTetute(){
 	obj.setAttribute("x", x);
 	obj.setAttribute("y", y + size);
 	obj.setAttribute("transform",
-			 "translate(" + (x+size/2) + "," + (y+size/2) + ")" + 
-			 "rotate(" + (90 * (index)) + ")" +
-			 "translate(" + (-(x+size/2)) + "," + (-(y+size/2)) + ")"
+			 `translate(${x+size/2},${y+size/2})` + 
+			 `rotate(${90 * (index)})` +
+			 `translate(${-(x+size/2)},${-(y+size/2)})`
 			);
 	obj.innerHTML = value;
 	
@@ -340,7 +358,6 @@ function downloadSVG(){
     var div = document.getElementById("divTetute");
     var text = [];
 
-    
     text[0] = div.childNodes[0].outerHTML;
     
     var blob = new Blob(text, {type: "text/plain"});

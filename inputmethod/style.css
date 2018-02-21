@@ -1,4 +1,10 @@
+@font-face{
+    font-family: "Tetute";
+    src: local("Tetute")m, url("../font/Tetute.woff") format("woff");
+}
+
 #textareaInput{
+    font-family: "Tetute";
     position: absolute;
     width: 100%;
     height: 95%;
@@ -36,6 +42,7 @@
 
 
 #divInputCompletion{
+    font-family: "Tetute";
     position: absolute;
     visibility: hidden;
     z-index: 3;

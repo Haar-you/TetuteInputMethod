@@ -3,14 +3,15 @@
     <meta charset="UTF-8">
     <title>Tetute Input Method</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
-    
   </head>
 
   <body>
     <div id="divMenuButtons">
       <table>
 	<tr>
+	  <!--
 	  <td>
 	    <form style="margin: 0;">
 	      <label class="menu">
@@ -18,14 +19,14 @@
 		<input id="fileOpenDictionary" type="file" style="display:none">
 	      </label>
 	    </form>
-	  </td>
+	  </td>-->
 	  <td>
 	    <input id="inputFontSize" type="number" value="20" min="0" max="200" onchange="changeFontSize()">
 	  </td>
-	  <td>
+	  <!--<td>
 	    <input id="inputFontName">
 	    <button id="buttonFontName" class="menu" onclick="changeFontFamily()">ChangeFont</button>
-	  </td>
+	  </td>-->
 	  <td>
 	    <button class="menu" onclick="drawTetute()" accesskey="R">ReloadTetute (R)</button>
 	  </td>
