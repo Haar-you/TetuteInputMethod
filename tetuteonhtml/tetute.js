@@ -1,9 +1,13 @@
 window.addEventListener("load", function(){
-    var elems =  document.body.children;
+    var elems =  document.querySelectorAll("body *");
 
     Array.prototype.forEach.call(elems, function(v){
+
+	console.log(v);
 	if(v.getAttribute("data-tetute") != null){
-	    var text = v.innerHTML;
+
+
+	    
 
 	    drawTetuteSVG(v);
 
@@ -13,7 +17,7 @@ window.addEventListener("load", function(){
 
 
 function drawTetute(elem){
-    var text = elem.innerHTML.split("\n");
+    var text = elem.innerHTML.split(/\n/);
     
     elem.innerHTML = "";
     
@@ -87,7 +91,9 @@ height: ${size}px;
 
 
 function drawTetuteSVG(elem){
-    var text = elem.innerHTML.split("\n");
+    var text = elem.innerHTML.split(/\|/).map(function(x){
+	return x.replace(/\t|\n/g, "");
+    });
     
     elem.innerHTML = "";
     

@@ -19,33 +19,69 @@
       body{
 
       }
-      
-      .test{
-      width: 300px;
-      height: 300px;
-      font-size: 40px;
-      }
-      
-      .test > svg{
-      fill: black;
-      stroke: gray;
-      }
 
-      .test a{
-      //fill: blue;
+      .common{
+      font-size: 30px;
+
       }
-      
     </style>
+    <svg xmlns="http://www.w3.org/2000/svg" style="width:0;height:0;border:none;display:block;">
+      <defs>
+	<linearGradient id="grad">
+	  <stop offset="0%" stop-color="#00ff00" stop-opacity="1"/>
+	  <stop offset="100%" stop-color="#ffff00" stop-opacity="1"/>
+	</linearGradient>
+	<radialGradient id="grad2">
+	  <stop offset="0%" stop-color="#00ffff" stop-opacity="1"/>
+	  <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+	</radialGradient>
+      </defs>
+    </svg>
   </head>
   <body>
-    <div class="tetute test" data-tetute>  
-  
-  
-    
-    
-    </div>
+
+    <span>
+      方法<br>
+      カスタムデータ属性data-tetute属性の存在する要素(ここではdiv)を取得し、その内部のテキストを基にsvgを作成する。<br>
+      htmlのspan要素などを埋め込むことはできない。(foreignObjectを使ってできるかもしれない。私は一度試みたが放り投げた。)<br>
+      svgのa要素やtspan要素は使える。(&lt;a xlink:href="〜"&gt;&lt;/a&gt;)
+      
+    </span>
+    <br><br>
+
     <div>
-      kE kak dejar kesa koteh.
+      <span>
+	kE kak dejar kesa koteh.
+      </span>
+      <div class="tetute common" style="" data-tetute>
+	  |
+	  |
+	  |
+	    |
+	    |
+	   
+      </div>
     </div>
+
+    <div>
+      <span>
+	yEtfe jetpanda gar sozef foc polar falota oke rod matusrebda taskobar rota gako.
+      </span>
+      <div class="tetute common" style="font-size: 60px; background-color: lightcyan;" data-tetute>
+	  |
+	<a style="fill: blue;" xlink:href="https://haar-you.github.io">  </a>|
+	<tspan style="">  </tspan>|
+	<tspan style="stroke: red; fill: none;">    </tspan>|
+	<tspan style="fill: url(#grad2)">    </tspan>|
+	<tspan style="fill: none; stroke: black; stroke-dasharray: 2 1;">      </tspan>|
+	<tspan style="fill: url(#grad);">      </tspan>|
+	<tspan style="stroke: url(#grad); fill: none;">        </tspan>|
+	<tspan style="fill: green; fill-opacity: 0.5;">        </tspan>|
+	<tspan style="text-shadow: -5px -5px 0 gray;">        </tspan></div>
+      一部にsvgのa要素を埋め込んでみました。(svgのa要素では文字色がhtmlのa要素のようにはならないので、style属性でfill: blueを指定しています。)<br>
+      tspan要素を使用することで部分的なテキスト修飾が可能です。<br>
+    </div>
+
+    
   </body>
 </html>
