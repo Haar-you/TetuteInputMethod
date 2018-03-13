@@ -1,0 +1,832 @@
+{
+    "data":[
+        {
+            "translation":"私はりんごを食べる．",
+            "tetute":"boke ma mo-te-h",
+            "gloss":[
+		"りんご", "食べる", "lo-1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私はりんごを食べた．",
+            "tetute":"bok-eS ma mo-te-h",
+            "gloss":[
+		"りんご-past", "食べる", "lo-1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼はりんごを食べている．",
+            "tetute":"boke ma mok mo-ta-h",
+            "gloss":[
+		"りんご", "食べる", "今", "lo-3.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼はりんごを食べている．",
+            "tetute":"boke ma mo-tazo belteh",
+            "gloss":[
+		"りんご", "食べる", "lo-"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼はりんごを食べている．",
+            "tetute":"boke ma kak mo-fena",
+            "gloss":[
+		"りんご", "食べる", "この", "lo-男.sbj"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼はりんごを食べている．",
+            "tetute":"boke ma mok kak mo-fena belteh",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼はりんごを食べている．",
+            "tetute":"boke ma kak fenar mo-te-h",
+            "gloss":[
+		"りんご", "食べる", "この", "男.sbj", "lo-neu.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼女はりんごを食べ終わっている．",
+            "tetute":"bok-eS ma jeno jo-tah",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼女はりんごを食べ終わっている．",
+            "tetute":"bok-eS ma jeno kak j-anoga",
+            "gloss":[
+		"りんご-past", "食べる", "終わる", "この", "lo-女.sbj"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼女はりんごを食べ終わっている．",
+            "tetute":"bok-eS ma jeno kak enogar jo-te-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼女はりんごを食べ終わっていた．",
+            "tetute":"bok-eS ma jeno kak enogar eS jo-te-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私の妻はりんごを食べたことがある．",
+            "tetute":"bok-eS ma mo-ba",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私の妻はりんごを食べたことがある．",
+            "tetute":"bok-eS ma mo-ba gako",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私の妻はりんごを食べたことがある．",
+            "tetute":"bok-eS ma mo-ba belteh",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私の妻はりんごを毎日食べる．",
+            "tetute":"boke ma fal-ode mo-ba",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私の妻はりんごを毎日食べる．",
+            "tetute":"boke ma fal-ode mo-ba belteh",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私と私の妻は昨日りんごを食べた．",
+            "tetute":"jokeSode bok-eS ma mo-te ma mo-ba",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私と私の妻は昨日りんごを食べた．",
+            "tetute":"jokeSode bok-eS tetute Net ba m-anso",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私と私の妻は昨日りんごを食べた．",
+            "tetute":"jokeSode ba goset bok-eS ma mo-te-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私と私の妻は6日前にりんごを食べた．",
+            "tetute":"hu pode bok-eS ma mo-te ma mo-ba",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼らは明日りんごを食べる．",
+            "tetute":"u boke ma pola mo-ta-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼らは6日後にりんごを食べる．",
+            "tetute":"u goSar pode boke pola mo-ta-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼女らは3日間りんごを食べている．（食事としてりんごだけを食べている）",
+            "tetute":"no ode kak dakfa bok-eS ma kak pola m-enoga belteh",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼女らはりんごを5分間食べ続けている．（りんごを食べる所要時間に5分かかっている）",
+            "tetute":"cedokar boke ma kak pola m-enoga belteh",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼は常にりんごを食べている．（四六時中ずっとりんごを食べている）",
+            "tetute":"boke ma danzar mo-ta-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"りんごが3つある．",
+            "tetute":"note boke lo-te-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"りんご達がテーブルの上にある．",
+            "tetute":"mo-tef pol boke lo-te-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"誰かがあのりんごを食べてしまった．（その結果，あのりんごは今はない）",
+            "tetute":"buk-ES heda ma tasra mo-te-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"誰かがこのりんごを食べそうだ．（推量）",
+            "tetute":"u buka kak ma mo-taso gako",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"誰かがこのりんごを食べそうだ．（推量）",
+            "tetute":"u buka kak ma mo-taso belte gako",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"誰かがこのりんご，そのりんご，あのりんごを食べたそうだ．（伝聞）",
+            "tetute":"buk-ES cangom kak Net roganso kak Net heda ma mo-taso gako belteh",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"りんごがひとつもない．",
+            "tetute":"boke-dbena",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"りんごがひとつもない．",
+            "tetute":"ad et-boke l-ade-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私はりんごを食べない．",
+            "tetute":"ad boke ma m-ade-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私はりんごを食べられない．（りんごがないので状況的に食べられない）",
+            "tetute":"ad boke e-ma m-ade-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私はりんごを床に落とした．",
+            "tetute":"boke wat eS dEmo wo-te-h",
+            "gloss":[
+		"りんご", "与える", "past", "下に", "lo-1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"りんごが床に落ちた．",
+            "tetute":"wat eS dEmo wo-bka belteh",
+            "gloss":[
+		"与えられた", "past", "下に", "lo-りんご.sbj", ""
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"りんごは食べられない．（りんごの性質として，可食でなくなった）",
+            "tetute":"boke-da e-mako",
+            "gloss":[
+		
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私はりんごを食べたい．",
+            "tetute":"boke ma poc-te-h",
+            "gloss":[
+		"りんご", "食べる", "したい-1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私はりんごを買いたい．",
+            "tetute":"pagnar boke poc-te-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"このりんごは汚い．",
+            "tetute":"tuzEnanso kak buka",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"このりんごは綺麗ではない．",
+            "tetute":"ad kozmek kak la-buka",
+            "gloss":[
+		"neg", "綺麗", "この", "である-りんご.sbj"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"このりんごは綺麗ではない．",
+            "tetute":"kozmek tag kak buka",
+            "gloss":[
+		"綺麗", "違う", "この", "りんご"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あのりんごは食べられそうだ．",
+            "tetute":"buka heda e-ma mo-te gako",
+            "gloss":[
+		"りんご", "あの", "pot-食べる", "lo-1.sbj", "だろう"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あれはりんごではない．",
+            "tetute":"boke heda tag",
+            "gloss":[
+		"りんご", "あれ", "違う"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あれはりんごではない．",
+            "tetute":"boke tag heda",
+            "gloss":[
+		"りんご", "違う", "あれ"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"これはりんごではなくみかんだ．",
+            "tetute":"boke tag kuf kak",
+            "gloss":[
+		"りんご", "違う", "みかん", "これ"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あなたはみかんを食べるか？",
+            "tetute":"kuf ma mo-ta-h",
+            "gloss":[
+		"みかん", "食べる", "lo-2.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あなたはみかんを食べるか？",
+            "tetute":"kuf ma-k mo-ta-h",
+            "gloss":[
+		"みかん", "食べる-q", "lo-2.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"はい，私はみかんを食べます．",
+            "tetute":"ma kuf ma mo-te-h",
+            "gloss":[
+		"食べる", "みかん", "食べる", "lo-1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あなたはみかんを食べないのですか？",
+            "tetute":"ad kuf ma-k m-ad",
+            "gloss":[
+		"neg", "みかん", "食べる-q", "lo-neg.2.sbj"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"ええ，私はみかんを食べません．",
+            "tetute":"jamda kuf ma m-ade-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あなたはみかんを食べたかった．ですよね？",
+            "tetute":"kuf ma poc-ta doS",
+            "gloss":[
+		"みかん", "食べる", "したい-2.sbj", ""
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"いいえ，私はみかんを食べたくはありません．",
+            "tetute":"poc-ade-d kuf ma poc-ade-h",
+            "gloss":[
+		"したい-neg.1.sbj-neg", "みかん", "食べる", "したい-neg.1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あなたはりんごもみかんも食べないのですか？",
+            "tetute":"ad boke ma-k m-ad kuf ma-k m-ad",
+            "gloss":[
+		"neg", "りんご", "食べる-q", "lo-neg.2.sbj", "みかん", "食べる-q", "lo-neg.2.sbj"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"いや，私はりんごを食べます．",
+            "tetute":"tag boke ma mo-te-h",
+            "gloss":[
+		"違う", "りんご", "食べる", "lo-1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私はみかんを食べない．だから，みかんは食べられない．（受け身の否定）",
+            "tetute":"ad kuf ma m-ade bepot kufa",
+            "gloss":[
+		"neg", "みかん", "食べる", "lo-neg.1.sbj", "安全", "みかん"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"りんごは食べることができない．なぜなら，りんごは綺麗ではないから．",
+            "tetute":"buk-ad e-ma m-ade-gnid kozmek la-buka",
+            "gloss":[
+		"りんご-neg", "pot-食べる", ""
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"りんごは汚い．一方で，みかんは綺麗だ．",
+            "tetute":"buka tuzEnanso Net kufa kozmek",
+            "gloss":[
+		"りんご", "汚い", "そして", "みかん", "綺麗"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"みかんを食べましょうよ？（勧誘）",
+            "tetute":"u kuf ma mo-te-h",
+            "gloss":[
+		"fut", "みかん", "食べる", "lo-1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"みかんを食べましょうよ？（勧誘）",
+            "tetute":"u goset kuf ma mo-te-h",
+            "gloss":[
+		"fut", "com", "みかん", "食べる", "lo-1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"いいえ，お断りします．",
+            "tetute":"du ma m-ade-h",
+            "gloss":[
+		"", "", ""
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あそこでみかんを食べろ．りんごは食べるな．",
+            "tetute":"heda-tef kif ad boke ma kec-ad",
+            "gloss":[
+		"あそこ-tef", "みかんを食べる", "neg", "りんご", "食べる", "良い-neg"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"りんごを頂いても宜しいですか？みかんは差し上げます．",
+            "tetute":"bo-buk-inso wat kectu kuf tad wat wo-te-h",
+            "gloss":[
+		"私の-りんご-inso", "くれる", "良い", "みかん", "あなたに", "与える", "lo-1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私は「りんごは食べるな，みかんを食べろ」と言った．",
+            "tetute":"boke ma kec-ade kif cek eS co-te-h",
+            "gloss":[
+		"りんご", "食べる", "良い-neg", "みかんを食べる.imp", "と言う", "past", "lo-1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あなたはりんごを食べろと言うのですか？",
+            "tetute":"bik cek co-ta-h",
+            "gloss":[
+		"りんごを食べる.imp", "と言う", "lo-2.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"貴様はりんごを食べたいと言った．",
+            "tetute":"boke ma poc-te cek co-ta-h",
+            "gloss":[
+		"りんご", "食べる", "したい-1.sbj", "と言う", "lo-2.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私はりんごを食べたいと言った覚えがない．",
+            "tetute":"boke ma poc-te cek eS co-te-zod ra r-ade-h",
+            "gloss":[
+		"りんご", "食べる", "したい-1.sbj", "と言う", "past", "lo-1.sbj", "覚える", "lo-neg.1.sbj-term"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あなたは確か「私はりんごを食べたい」と言ったはずだ．",
+            "tetute":"boke ma poc-te cek eS co-ta gako",
+            "gloss":[
+		"りんご", "食べる", "したい-1.sbj", "と言う", "past", "lo-2.sbj", "だろう"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"私はもしかしたらそう言ったかもしれない．",
+            "tetute":"cek eS heda co-te gako",
+            "gloss":[
+		"言う", "past", "それ", "lo-1.sbj", "だろう"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"あなたは絶対に私に対して「りんごを食べたい」と言った．",
+            "tetute":"dejar tetute-tfe boke ma poc-te cek co-ta gako",
+            "gloss":[
+		"絶対に", "私-tef", "りんご", "食べる", "したい-1.sbj", "と言う-2.sbj", "だろう"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"彼は私にりんごを食べさせる．",
+            "tetute":"boke ma tetut-ar mo-ta-h",
+            "gloss":[
+		"りんご", "食べる", ""
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"みかんは私に食べられていない．",
+            "tetute":"kuf-da ma m-adeko",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"りんごは彼によって私に食べさせられた．",
+            "tetute":"buk-eS-da ma kak fenar mo-te-h",
+            "gloss":[
+
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        },
+        {
+            "translation":"ここには何もない．",
+            "tetute":"kak-tef ranca-debna",
+            "gloss":[
+		"ここ-tef", "何-ない"
+            ],
+            "contents":"",
+            "source":[
+
+            ]
+        }
+    ],
+    "abbr":[
+
+    ]
+}
